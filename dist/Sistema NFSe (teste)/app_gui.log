@@ -1,0 +1,50 @@
+2026-08-10 15:47:33,692 [ERROR] Erro ao consultar SQL
+Traceback (most recent call last):
+  File "app_gui.py", line 167, in _consultar_sql
+  File "consulta_pagamentos.py", line 60, in consultar_formas_pagamento
+  File "db.py", line 12, in conectar
+RuntimeError: Configuração de conexão incompleta:
+  - Nome do banco de dados não preenchido.
+  - Senha do banco não preenchida.
+
+Preencha isso na aba 'Configurações' do programa.
+2026-08-10 15:48:00,374 [INFO] ====== WebDriver manager ======
+2026-08-10 15:48:04,304 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-10 15:48:04,437 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-10 15:48:04,526 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-10 15:48:04,770 [INFO] WebDriver version 150.0.7871.124 selected
+2026-08-10 15:48:04,777 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-10 15:48:04,777 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-10 15:48:04,919 [INFO] Driver downloading response is 200
+2026-08-10 15:48:05,789 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-10 15:48:06,009 [INFO] Driver has been saved in cache [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-08-24 08:42:52,859 [INFO] ====== WebDriver manager ======
+2026-08-24 08:42:57,254 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:42:57,371 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:42:57,450 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-24 08:43:38,589 [WARNING] Erro na extração: Perdi a conexão com o navegador ao paginar: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=151.0.7922.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x1113353+fd93]
+	chromedriver!GetHandleVerifier [0x1113394+fdd4]
+	chromedriver!(No symbol) [0xf09220]
+	chromedriver!(No symbol) [0xef855e]
+	chromedriver!(No symbol) [0xf16ba9]
+	chromedriver!(No symbol) [0xf7c16d]
+	chromedriver!(No symbol) [0xf92e29]
+	chromedriver!(No symbol) [0xf75616]
+	chromedriver!(No symbol) [0xf487e9]
+	chromedriver!(No symbol) [0xf495b4]
+	chromedriver!GetHandleVerifier [0x13af51a+2abf5a]
+	chromedriver!GetHandleVerifier [0x13aaa21+2a7461]
+	chromedriver!GetHandleVerifier [0x113f374+3bdb4]
+	chromedriver!GetHandleVerifier [0x112e036+2aa76]
+	chromedriver!GetHandleVerifier [0x1134efd+3193d]
+	chromedriver!GetHandleVerifier [0x111c8a8+192e8]
+	chromedriver!GetHandleVerifier [0x111ca55+19495]
+	chromedriver!GetHandleVerifier [0x11053ff+1e3f]
+	KERNEL32!BaseThreadInitThunk [0x75fffcc9+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77ae82ae+11e]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77ae827e+ee]
+

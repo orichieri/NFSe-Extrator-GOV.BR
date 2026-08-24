@@ -1,0 +1,110 @@
+2026-08-06 09:00:55,791 [INFO] Progresso anterior carregado: {'MATRIZ': 7827.72, 'PRAIA DA COSTA': 1000.0, 'JARDIM DA PENHA': 3682.7, 'JARDIM CAMBURI': 2130.8}
+2026-08-06 09:04:24,151 [INFO] Progresso anterior carregado: {'MATRIZ': 7827.72, 'PRAIA DA COSTA': 1000.0, 'JARDIM DA PENHA': 3682.7, 'JARDIM CAMBURI': 2130.8}
+2026-08-06 09:16:56,705 [INFO] Progresso anterior carregado: {'MATRIZ': 7827.72, 'PRAIA DA COSTA': 1000.0, 'JARDIM DA PENHA': 3682.7, 'JARDIM CAMBURI': 2130.8}
+2026-08-06 10:25:47,805 [INFO] Progresso anterior carregado: {'MATRIZ': 7827.72, 'PRAIA DA COSTA': 1000.0, 'JARDIM DA PENHA': 3682.7, 'JARDIM CAMBURI': 2130.8}
+2026-08-06 10:26:22,065 [INFO] Progresso anterior carregado: {'MATRIZ': 7827.72, 'PRAIA DA COSTA': 1000.0, 'JARDIM DA PENHA': 3682.7, 'JARDIM CAMBURI': 2130.8}
+2026-08-07 07:19:45,623 [INFO] Progresso anterior carregado: {'MATRIZ': 0.0, 'PRAIA DA COSTA': 0.0, 'JARDIM DA PENHA': 0.0, 'JARDIM CAMBURI': 0.0}
+2026-08-07 08:40:35,511 [INFO] ====== WebDriver manager ======
+2026-08-07 08:40:39,261 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:40:39,929 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:40:40,287 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:40:41,102 [INFO] WebDriver version 150.0.7871.124 selected
+2026-08-07 08:40:41,109 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-07 08:40:41,109 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/150.0.7871.124/win32/chromedriver-win32.zip
+2026-08-07 08:40:41,509 [INFO] Driver downloading response is 200
+2026-08-07 08:40:42,408 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:40:42,942 [INFO] Driver has been saved in cache [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\150.0.7871.124]
+2026-08-07 08:41:53,592 [INFO] MATRIZ: total=50246.17 paginas=18
+2026-08-07 08:42:00,781 [INFO] ====== WebDriver manager ======
+2026-08-07 08:42:04,226 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:42:04,585 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:42:04,938 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-07 08:49:43,653 [WARNING] Erro na extração: O navegador foi fechado antes de iniciar a extração.
+2026-08-07 08:50:03,456 [INFO] ====== WebDriver manager ======
+2026-08-07 08:50:07,044 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:50:07,421 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:50:07,793 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-07 08:50:23,893 [INFO] JARDIM DA PENHA: total=14710.22 paginas=5
+2026-08-07 08:50:32,010 [INFO] ====== WebDriver manager ======
+2026-08-07 08:50:35,758 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:50:36,141 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-07 08:50:36,526 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\150.0.7871.124\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-07 08:50:56,303 [INFO] JARDIM CAMBURI: total=20703.32 paginas=7
+2026-08-07 08:51:26,593 [ERROR] Erro inesperado ao preencher planilha
+Traceback (most recent call last):
+  File "c:\Users\CPD FARMADERM\Desktop\Sistema NFSe João 2026\app_gui.py", line 283, in _preencher_planilha
+    relatorio = preencher_planilha.preencher_mes(
+        caminho, mes, self.pagamentos, self.revendas, self.nfse)
+  File "c:\Users\CPD FARMADERM\Desktop\Sistema NFSe João 2026\preencher_planilha.py", line 190, in preencher_mes
+    wb.save(caminho)
+    ~~~~~~~^^^^^^^^^
+  File "C:\Users\CPD FARMADERM\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\CPD FARMADERM\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\CPD FARMADERM\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\CPD FARMADERM\\Desktop\\Sistema NFSe João 2026\\ANALISE_NFS-E.xlsx'
+2026-08-07 08:51:30,246 [ERROR] Erro inesperado ao preencher planilha
+Traceback (most recent call last):
+  File "c:\Users\CPD FARMADERM\Desktop\Sistema NFSe João 2026\app_gui.py", line 283, in _preencher_planilha
+    relatorio = preencher_planilha.preencher_mes(
+        caminho, mes, self.pagamentos, self.revendas, self.nfse)
+  File "c:\Users\CPD FARMADERM\Desktop\Sistema NFSe João 2026\preencher_planilha.py", line 190, in preencher_mes
+    wb.save(caminho)
+    ~~~~~~~^^^^^^^^^
+  File "C:\Users\CPD FARMADERM\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\CPD FARMADERM\AppData\Local\Programs\Python\Python313\Lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\CPD FARMADERM\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\CPD FARMADERM\\Desktop\\Sistema NFSe João 2026\\ANALISE_NFS-E.xlsx'
+2026-08-07 10:05:32,251 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54272): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/5ab66f862a7b1b74287aceb949755815
+2026-08-07 10:05:36,386 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54272): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/5ab66f862a7b1b74287aceb949755815
+2026-08-07 10:05:40,461 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54272): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/5ab66f862a7b1b74287aceb949755815
+2026-08-24 07:31:27,346 [INFO] Progresso anterior carregado: {'MATRIZ': 50246.17, 'PRAIA DA COSTA': 27123.92, 'JARDIM DA PENHA': 14710.22, 'JARDIM CAMBURI': 20703.32}
+2026-08-24 08:38:02,154 [INFO] Progresso anterior carregado: {'MATRIZ': 50246.17, 'PRAIA DA COSTA': 27123.92, 'JARDIM DA PENHA': 14710.22, 'JARDIM CAMBURI': 20703.32}
+2026-08-24 08:38:31,860 [INFO] ====== WebDriver manager ======
+2026-08-24 08:38:35,484 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:38:35,892 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:38:36,211 [INFO] There is no [win64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-24 08:38:36,211 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:38:36,925 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-24 08:38:36,933 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/win32/chromedriver-win32.zip
+2026-08-24 08:38:36,933 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/win32/chromedriver-win32.zip
+2026-08-24 08:38:37,288 [INFO] Driver downloading response is 200
+2026-08-24 08:38:38,191 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:38:38,640 [INFO] Driver has been saved in cache [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138]
+2026-08-24 08:39:27,908 [WARNING] Erro na extração: Cliquei em 'Próxima' mas a tabela não mudou. O site pode ter ficado lento.
+2026-08-24 08:39:43,864 [INFO] ====== WebDriver manager ======
+2026-08-24 08:39:47,402 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:39:47,969 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:39:48,300 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-24 08:44:52,999 [INFO] ====== WebDriver manager ======
+2026-08-24 08:44:56,661 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:44:57,041 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 08:44:57,370 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-24 08:55:54,924 [INFO] MATRIZ: total=288823.32 paginas=93
+2026-08-24 09:00:00,090 [INFO] ====== WebDriver manager ======
+2026-08-24 09:00:03,561 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 09:00:03,885 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 09:00:04,203 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-24 09:00:26,030 [WARNING] Erro na extração: O navegador foi fechado antes de iniciar a extração.
+2026-08-24 09:29:35,805 [INFO] ====== WebDriver manager ======
+2026-08-24 09:29:39,678 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 09:29:40,385 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 09:29:40,745 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-24 09:47:14,176 [INFO] JARDIM DA PENHA: total=59904.44 paginas=17
+2026-08-24 09:47:37,168 [INFO] ====== WebDriver manager ======
+2026-08-24 09:47:40,729 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 09:47:41,086 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 09:47:41,410 [INFO] Driver [C:\Users\CPD FARMADERM\.wdm\drivers\chromedriver\win64\151.0.7922.138\chromedriver-win32/chromedriver.exe] found in cache
+2026-08-24 09:50:37,992 [INFO] JARDIM CAMBURI: total=71162.96 paginas=21
+2026-08-24 12:58:21,789 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=38696): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/4e935e244cc1718bb6007909beafa89a
+2026-08-24 12:58:25,847 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=38696): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/4e935e244cc1718bb6007909beafa89a
+2026-08-24 12:58:29,871 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=38696): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/4e935e244cc1718bb6007909beafa89a

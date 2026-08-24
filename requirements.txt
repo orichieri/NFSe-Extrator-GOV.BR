@@ -1,0 +1,4 @@
+pyodbc
+openpyxl
+selenium
+webdriver-manager
